@@ -3,7 +3,7 @@ import TodoTextInput from "./todo-text-input";
 
 const Header = ({ onNewItem }: { onNewItem: (text: string) => void }) => (
   <header className="header">
-    <h1>Daily Basis</h1>
+    <h1>Basis</h1>
     <TodoTextInput
       initial=""
       placeholder="Plan your events?"
